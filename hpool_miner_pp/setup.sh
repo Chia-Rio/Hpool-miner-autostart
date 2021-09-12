@@ -6,7 +6,7 @@ sudo usermod -a -G hpool $USER
 sudo mkdir /usr/share/hpool_miner/
 sudo mkdir /usr/share/hpool_miner/pp
 sudo chown -R hpool:hpool /usr/share/hpool_miner/
-sudo cp "hpool-miner-chia-pp" /usr/share/hpool_miner/pp
+sudo cp "hpool-miner-chia" /usr/share/hpool_miner/pp
 sudo cp "hpool-miner-chia-pp.sh" /usr/share/hpool_miner/pp
 sudo cp "config.yaml" /usr/share/hpool_miner/pp
 sudo chown -R hpool:hpool /usr/share/hpool_miner/
